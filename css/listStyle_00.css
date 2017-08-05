@@ -1,0 +1,37 @@
+/* CSS for list pages */
+
+#flash {position:relative; z-index:0;}
+		
+		#projectsList {
+			margin-left: 90px; 
+			padding-left: 10%; 
+			padding-top: 10px;
+			width: 400px;
+			
+			
+		}
+		#projectsList li {
+			display: block;
+			padding-top: 1em;
+			padding-bottom: 0.2em;
+			margin-right: 20px;
+			float: left;
+			
+			/*min-width:800px;*/
+		}
+		
+		#projectsList>li{font-size:11pt; color:white;}
+		.entry{font-size:8pt;color:#888888; }
+		/*.entry li:not(:first-of-type){padding-left:130px}*/
+		
+		#projectsList img{width:480px; padding-left:130px}
+		
+		hr {width: 100%;
+				text-align: left;/*this will align it for IE*/
+				margin: 0 auto 0 0; /*this will align it left for Mozilla*/
+		}
+		
+		
+		.icon {
+		width: 70px;
+	  }
